@@ -3,6 +3,5 @@ def main():
     print_colum(3)
 
 def print_colum(height):
-    for _ in range(height):
-        print("#")
+    print("#\n" * height, end=" ")
 main()
