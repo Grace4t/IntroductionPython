@@ -7,5 +7,6 @@ def print_square(size):
         for j in range(size):
             # For para cada bloque
             print("#", end="")
+        # el print() manda una linea en blanco o un punto y aparte
         print()
 main()
